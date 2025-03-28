@@ -30,47 +30,34 @@
       <header class="hero-section text-center text-white d-flex align-items-center">
         <div class="container">
             <h1>Embrace Bohemian Elegance</h1>
-            <p>Discover curated collections of fashion and home decor inspired by Anthropologie</p>
+            <p>Discover curated collections of fashion inspired by Anthropologie</p>
             <a href="shop.html" class="btn btn-primary">Explore Now!</a>
         </div>
       </header>
 
       <!-- Featured Collections Section -->
-       <section class="container my-5">
+      <section class="container my-5">
         <h2 class="text-center">Featured Collections</h2>
-        <div class="row">
-            <div class="col-md-4 mb-4">
-                <div class="card border-0">
-                    <img src="https://images.unsplash.com/photo-1728943620265-2e27d5534400?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="dress">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">White Boho Dress</h5>
-                        <p class="card-text">24.99</p>
-                        <a href="shop.html" class="btn btn-outline-dark">View Collection</a>
-                    </div>
+        <div id="featuredCollectionsCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://images.unsplash.com/photo-1728943620265-2e27d5534400?q=80&w=2574&auto=format&fit=crop" class="d-block w-100" alt="White Boho Dress">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://plus.unsplash.com/premium_photo-1661434571068-55553fd566f5?q=80&w=2574&auto=format&fit=crop" class="d-block w-100" alt="Fringe Jacket">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://plus.unsplash.com/premium_photo-1664391658474-c5509d4fc003?q=80&w=2560&auto=format&fit=crop" class="d-block w-100" alt="Handmade Purse">
                 </div>
             </div>
-            <div class="col-md-4 mb-4">
-                <div class="card border-0">
-                    <img src="https://plus.unsplash.com/premium_photo-1661434571068-55553fd566f5?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="fringe jacket">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Fringe Jacket</h5>
-                        <p class="card-text">14.99</p>
-                        <a href="shop.html" class="btn btn-outline-dark">View Collection</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card border-0">
-                    <img src="https://plus.unsplash.com/premium_photo-1664391658474-c5509d4fc003?q=80&w=2560&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="purse">
-                    <div class="card-body text-center">
-                        <h5 class="card-title">Handmade Purse</h5>
-                        <p class="card-text">9.99</p>
-                        <a href="shop.html" class="btn btn-outline-dark">View Collection</a>
-                    </div>
-                </div>
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#featuredCollectionsCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#featuredCollectionsCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
         </div>
-       </section>
+    </section>
 
        <!-- Carousel for New Arrivals -->
         <section class="container my-5">
