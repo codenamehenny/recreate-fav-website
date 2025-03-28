@@ -2,14 +2,28 @@
 
 /* Hero Section Styling */
 .hero-section {
-    background: url('') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center; 
     text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
 }
 
-.card img {
-    height: 250px;
-    object-fit: cover;
+header {
+    background-color: white; 
+    color: #694958 !important;
+    padding: 15px;
+}
+
+.carousel-item img {
+    height: 400px;
+    margin: auto;
+    object-fit: contain;
+}
+
+.navbar {
+    background-color: #694958 !important;
+}
+
+.navbar a {
+    color: white;
 }
